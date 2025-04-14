@@ -1,44 +1,137 @@
 {
   "products": [
     {
+      "id": "1",
+      "nome": "Château Margaux",
+      "categoria": "Tinto",
+      "safra": 2015,
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Margaux94_1.jpg/640px-Margaux94_1.jpg",
+      "quantidade": 20,
+      "preco": 1200,
+      "volume": "750ml",
+      "pais": "França"
+    },
+    {
+      "id": "2",
+      "nome": "Barolo Riserva",
+      "categoria": "Tinto",
+      "safra": 2016,
+      "imagem": "https://images.tcdn.com.br/img/img_prod/1068056/barolo_docg_reserva_terredavino_275_1_f468728e32625d34616d6ac68b505a58.png",
+      "quantidade": 20,
+      "preco": 850,
+      "volume": "750ml",
+      "pais": "Itália"
+    },
+    {
+      "id": "3",
+      "nome": "Chablis Premier Cru",
+      "categoria": "Branco",
+      "safra": 2019,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSADNOuNFuL9LHZBQM_V3M2nxGFF4MopC5uFA&s",
+      "quantidade": 20,
+      "preco": 320,
+      "volume": "750ml",
+      "pais": "França"
+    },
+    {
+      "id": "4",
+      "nome": "Brunello di Montalcino",
+      "categoria": "Tinto",
+      "safra": 2017,
+      "imagem": "https://cdn.awsli.com.br/800x800/563/563271/produto/143705081/2f72ec7de8.jpg",
+      "quantidade": 20,
+      "preco": 590,
+      "volume": "750ml",
+      "pais": "Itália"
+    },
+    {
       "id": "5",
-      "name": "Quinta do Morgado",
-      "price": 10.89,
-      "category": "Vinho Suave",
-      "image": "https://cdn.awsli.com.br/600x450/1231/1231345/produto/257050016/vinho-tinto-quinta-do-morgado-750ml-jtllwzmyuj.jpg",
-      "quantity": 12
+      "nome": "Sauvignon Blanc",
+      "categoria": "Branco",
+      "safra": 2020,
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR1plrk5_818s3IAvm3KWpyNe80G8L_F-Q4FWJlyB6o1wBzRG2-TEsMHeY6U0nt-d2YvmzSl-OoI8Q2tG65DlHFWOOyjgO2eOZVBongrEHNwkOBGNOrnVo",
+      "quantidade": 20,
+      "preco": 150,
+      "volume": "750ml",
+      "pais": "Nova Zelândia"
     },
     {
       "id": "6",
-      "name": "Quinta do Morgado",
-      "price": 10.89,
-      "category": "Vinho Suave",
-      "image": "https://cdn.awsli.com.br/600x450/1231/1231345/produto/257050016/vinho-tinto-quinta-do-morgado-750ml-jtllwzmyuj.jpg",
-      "quantity": 12
+      "nome": "Champagne Dom Pérignon",
+      "categoria": "Espumante",
+      "safra": 2012,
+      "imagem": "https://cdn.dooca.store/33560/products/dom-perignon.png?v=1655245110&webp=0",
+      "quantidade": 20,
+      "preco": 1800,
+      "volume": "750ml",
+      "pais": "França"
     },
     {
       "id": "7",
-      "name": "Quinta do Morgado",
-      "price": 10.89,
-      "category": "Vinho Suave",
-      "image": "https://cdn.awsli.com.br/600x450/1231/1231345/produto/257050016/vinho-tinto-quinta-do-morgado-750ml-jtllwzmyuj.jpg",
-      "quantity": 12
+      "nome": "Porto Vintage",
+      "categoria": "Fortificado",
+      "safra": 2010,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWk5xEQGZV2_b0BRCd5Ksnw4To7C7WVoT5gQ&s",
+      "quantidade": 20,
+      "preco": 750,
+      "volume": "750ml",
+      "pais": "Portugal"
+    }
+  ],
+  "orders": [
+    {
+      "id": "0",
+      "codigo": "02",
+      "nome": "Sappara",
+      "quantidade": 1,
+      "valor": "R$ 10",
+      "data": "2025-03-20T12:30:45.000Z",
+      "local": "Onde judas perdeu as botas"
     },
     {
-      "id": "8",
-      "name": "Quinta do Morgado",
-      "price": 10.89,
-      "category": "Vinho Suave",
-      "image": "https://cdn.awsli.com.br/600x450/1231/1231345/produto/257050016/vinho-tinto-quinta-do-morgado-750ml-jtllwzmyuj.jpg",
-      "quantity": 12
+      "id": "1",
+      "codigo": "03",
+      "nome": "Produto X",
+      "quantidade": 2,
+      "valor": "R$ 25",
+      "data": "2025-03-21T08:15:30.000Z",
+      "local": "Local indefinido"
     },
     {
-      "id": "9",
-      "name": "Quinta do Morgado",
-      "price": 10.89,
-      "category": "Vinho Suave",
-      "image": "https://cdn.awsli.com.br/600x450/1231/1231345/produto/257050016/vinho-tinto-quinta-do-morgado-750ml-jtllwzmyuj.jpg",
-      "quantity": 12
+      "id": "2",
+      "codigo": "04",
+      "nome": "Item Y",
+      "quantidade": 3,
+      "valor": "R$ 50",
+      "data": "2025-03-22T17:45:00.000Z",
+      "local": "Em algum lugar"
+    },
+    {
+      "id": "3",
+      "codigo": "05",
+      "nome": "Produto Z",
+      "quantidade": 1,
+      "valor": "R$ 15",
+      "data": "2025-03-23T22:10:15.000Z",
+      "local": "Fora do mapa"
+    },
+    {
+      "id": "21ce",
+      "codigo": 35,
+      "nome": "1200",
+      "quantidade": "2",
+      "valor": "R$2400",
+      "data": "2025-03-31T15:26:21.804Z",
+      "local": "Rua sem saida"
+    },
+    {
+      "id": "f465",
+      "codigo": 48,
+      "nome": "850",
+      "quantidade": "3",
+      "valor": "R$2550",
+      "data": "2025-03-31T15:59:58.184Z",
+      "local": "Rua sem saida"
     }
   ]
 }
