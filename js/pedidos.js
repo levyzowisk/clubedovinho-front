@@ -21,7 +21,7 @@ fetch('http://localhost:3000/orders')
         <td>${element.nome}</td> 
         <td>${element.quantidade}</td> 
         <td>${element.valor}</td> 
-        <td>${formatDistance(new Date(element.data), new Date(), {locale: ptBR})} atrás</td> 
+        <td>${formatDistance(new Date(element.data), new Date(), {locale: ptBR}).replace('cerca de', '')} atrás</td> 
         <td>${element.local}</td> 
 
     </tr>

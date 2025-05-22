@@ -8,7 +8,7 @@ window.abrirModal = (nome, imagem, data) => {
     `;
     const dataProduto = new Date(data, 1, 1)
     const dataAtual = new Date()
-    document.getElementById('tempo').innerText = `Vinho produzido há ${formatDistance(dataProduto, dataAtual).replace('about', '').replace('years', '')} anos atrás`;
+    document.getElementById('tempo').innerText = `Vinho produzido há ${formatDistance(dataProduto, dataAtual).replace('about', '').replace('years', '').replace('over', '')} anos atrás`;
 };
 
 window.excluir = (id) => {
